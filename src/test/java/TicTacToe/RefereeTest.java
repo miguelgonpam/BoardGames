@@ -16,5 +16,14 @@ public class RefereeTest {
         assertFalse(referee.isWinner(Color.BLACK));
     }
 
-    void test
+    @Test
+    void testLegalMove(){
+        TTTReferee referee = new TTTReferee();
+
+    }
+
+    @Test
+    void testIsWinner(){
+
+    }
 }
